@@ -11,6 +11,14 @@ footer {
     margin:  0 auto;
 }
 
+h1{
+    color:rgba(37, 28, 17, 0.178);
+}
+
+h2 {
+    color:darkgoldenrod;
+}
+
 header {
     background-color: burlywood;
     padding: 1.5rem;
@@ -28,4 +36,8 @@ h1 {
     font-size: 2.4rem;
     color: white;
     text-align: center;
+}
+footer { background-color: chocolate;
+    padding: 1.5rem;
+
 }
