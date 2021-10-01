@@ -11,10 +11,11 @@ footer {
     margin:  0 auto;
 }
 
-h1{
-    color:rgba(37, 28, 17, 0.178);
+header, 
+footer {
+    background-color: hsl(298, 24%, 42%);
+    box-shadow: 0 0 2rem hsl(0, 0, 47%);
 }
-
 h2 {
     color:darkgoldenrod;
 }
@@ -25,17 +26,15 @@ header {
 }
 
 header img {
-    float: right;
-}
-header img{
-    width: 100px;
+    width: 300px;
     height: auto;
 }
 
 h1 {
     font-size: 2.4rem;
-    color: white;
+    color: purple;
     text-align: center;
+    text-shadow: 0.5rem 2rem hsl(0, 0, 10%);
 }
 footer { background-color: chocolate;
     padding: 1.5rem;
