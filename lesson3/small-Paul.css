@@ -62,6 +62,10 @@ nav a:hover {
     color: blue;
 }
 
-main  {}
+main {
+}
 
-footer {}
+footer {
+    { background-color: chocolate;
+        padding: 1.5rem;    
+}
