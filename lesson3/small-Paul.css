@@ -1,0 +1,67 @@
+body {
+    flex: grid;
+    font-size: 16px;
+	font-family: "ABeeZee", sans, sans-serif;
+}
+
+header,
+
+main,
+
+footer {
+    max-width: 760px;
+    margin:  0 auto;
+}
+
+header, footer{
+    background-color: hsl(298, 24%, 42%);
+    box-shadow: 0 0 2rem hsl(0, 0, 47%);
+}
+header {
+    background-color:#d64161;
+    color: rgb(241, 138, 138);
+    padding: 1.1rem;
+    font: 2.4rem;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav ul li a {
+	display: block;
+	color: blueviolet;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 0.95rem;
+	background: linear-gradient(90deg, transparent, yellow, transparent) top / var(--d, 0) 10px no-repeat;
+    transition: 0.5s;
+}
+nav a:hover {
+	--d: 75%;
+}
+.active {
+	color: yellow;
+}
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
+}
+
+nav ul {
+    color:#c94c4c;
+}
+nav a {
+    color: chocolate;
+}
+nav a:hover {
+    color: blue;
+}
+
+main  {}
+
+footer {}
