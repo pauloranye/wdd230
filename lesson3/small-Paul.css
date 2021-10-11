@@ -1,7 +1,17 @@
 body {
-    flex: grid;
+    display: flex;
+	justify-content:space-between;
+	justify-content: space-around;
+	align-items: stretch;
     font-size: 16px;
 	font-family: "ABeeZee", sans, sans-serif;
+	color:aquamarine;
+    background-color: brown;
+
+}
+
+header, footer{
+	box-shadow: 0 0 2rem rgb(26, 4, 4);
 }
 
 header,
@@ -24,13 +34,14 @@ header {
     font: 2.4rem;
 }
 
-nav ul {
+ul .navbar a {
 	list-style-type: none;
+	color: chocolate;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 }
-nav ul li a {
+ul.navbar li {
 	display: block;
 	color: blueviolet;
 	text-align: center;
@@ -47,25 +58,16 @@ nav a:hover {
 	color: yellow;
 }
 main {
-	display: grid;
-	grid-template-columns: 1fr;
+	display: flex;
 	font-size: 0.8rem;
 }
 
-nav ul {
-    color:#c94c4c;
-}
-nav a {
-    color: chocolate;
-}
 nav a:hover {
     color: blue;
 }
 
-main {
-}
 
 footer {
-    { background-color: chocolate;
+    background-color: chocolate;
         padding: 1.5rem;    
 }
