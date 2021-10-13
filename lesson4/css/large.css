@@ -9,6 +9,12 @@
 		font-size: 3rem;
 	}
 
+	.navigation {
+		background-color:deeppink;
+		list-style: none;
+		padding: 0.5em;
+	}
+
 	.slogan {
 		letter-spacing: 1.5pt;
 		font-size: larger;
