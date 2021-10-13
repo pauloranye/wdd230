@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <title>Preston</title>
+    <meta
+      name="description"
+      content="This the weather page for preston town Idaho"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <title>Preston</title>
+
+    <!-- STYLE SHEETS -->
+
+    <link rel="stylesheet" href="../lesson5/css/normalize.css" />
+    <!-- for phone view-->
+    <link rel="stylesheet" href="../lesson5/css/small.css" />
+    <!-- for tablet view -->
+    <link rel="stylesheet" href="../lesson5/css/medium.css" />
+    <!--for desktop view-->
+    <link rel="stylesheet" href="../lesson5/css/large.css" />
+    <script defer src="lesson5/js/scripts.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="headings">
+        <img src="lesson5/images/logo.png" alt="logo" />
+        <h1>Preston Town-Holiday Paul</h1>
+        <q class="slogan">Where holidays never end!</q>
+      </div>
+    </header>
+    
+    <nav>
+      <ul class="navigation">
+        <li>
+          <a class="object" href="#" onclick="toggleMenu()">&#9776; Menu</a>
+        </li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Weather</a></li>
+        <li><a href="#">History</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    
+    <main>
+      <h4>weather update</h4>
+      <img src="../lesson5/images/Webp.net-resizeimage.jpgg" alt="Image"/>
+      
+      <p>click link above to see what's up with the day's weather.</p>
+    </main>
+    <footer>
+      <p>&copy; 2021 &bull; Holiday-Paul &bull; 123-555-62627</p>
+      <p><span id="lastmodified"></span></p>
+    </footer>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
